@@ -1,0 +1,132 @@
+body{
+    background-image: url(vecteezy_black-sky-with-stars-space-background_4640503.jpg);
+    background-attachment: fixed;
+}
+#neptune{
+    height: 900px;
+    width: 900px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#nep_pic{
+    top:40px;
+    left: 800px;
+    position:absolute;
+    background: none;
+    transform: translate(-50%, -50%);
+    animation: rotate 16s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) rotate(-180deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(180deg);
+    }
+}
+#uranus{
+    height: 800px;
+    width: 800px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#urns_pic{
+    top:180px;
+    left: 700px;
+    position:absolute;
+    background: none;
+    transform: translate(-50%, -50%);
+    animation: rotate 17s linear infinite;
+}
+#Saturn{
+    height: 700px;
+    width: 700px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#sat_pic{
+    top: 300px;
+    left: 680px;
+    position:absolute;
+    background: none;
+    transform: translate(-50%, -50%);
+    animation: rotate 11s linear infinite;
+}
+#jupiter{
+    height: 600px;
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#jup_pic{
+    top:400px;
+    left: 685px;
+    position:absolute;
+    background: none;
+    transform: translate(-50%, -50%);
+    animation: rotate 10s linear infinite;
+}
+#Mars{
+    height: 500px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#mars_pic{
+    top:500px;
+    left: 710px;
+    position:absolute;
+    background: none;
+    transform: translate(-50%, -50%);
+    animation: rotate 25s linear infinite;
+}
+#earth{
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#earth_pic{
+    top:600px;
+    left: 780px;
+    position:absolute;
+    background: none;
+    transform: translate(-50%, -50%);
+    animation: rotate 24s linear infinite;
+}
+#venus{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#venus_pic{
+    top:670px;
+    left: 900px;
+    position:absolute;
+    background: none;
+    transform: translate(-50%, -50%);
+    animation: rotate 5832s linear infinite;
+}
+#mercury{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#mercury_pic{
+    top:660px;
+    left: 1020px;
+    position:absolute;
+    background: none;
+    transform: translate(-50%, -50%);
+    animation: rotate 1408s linear infinite;
+}
